@@ -1,0 +1,12 @@
+-- Create the payments table
+CREATE TABLE payments (
+    id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    order_id VARCHAR(255) NOT NULL,
+    amount INT(11) NOT NULL,
+    status ENUM('pending', 'paid', 'failed') NOT NULL DEFAULT 'pending',
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NULL ON UPDATE CURRENT_TIMESTAMP
+);
+
+-- Add an index on order_id for faster lookups
+CREATE INDEX idx_order_id ON payments (order_id);
