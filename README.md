@@ -231,6 +231,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-**GitHub Repository:** [Alucard0x1/stripe-payment-integration](https://github.com/Alucard0x1/stripe-payment-integration)
+**GitHub Repository:** [WMediaIT/Stripe-Sample-Logic-Notification]((https://github.com/WMediaIT/Stripe-Sample-Logic-Notification)
 
 Feel free to contribute, report issues, or submit pull requests.
